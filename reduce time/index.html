@@ -194,7 +194,7 @@
     const hours = Math.floor(seconds / 3600)
     const secondsLeft = Math.floor(seconds % 3600)
     const minutes = Math.floor(secondsLeft / 60)
-    secondsleft = Math.floor(minutes % 60)
+    secondsleft = Math.floor(secondsLeft % 60)
     console.log(`${hours} hours, ${minutes} minutes, ${secondsleft} seconds`)
   </script>
 </body>
